@@ -1,0 +1,10 @@
+@Kopernicus:FINAL
+{
+	@Body[Earth]
+	{
+		@Ocean
+		{
+			@oceanHeight = -5 // Adjust this value as needed to lower the ocean
+		}
+	}
+}
