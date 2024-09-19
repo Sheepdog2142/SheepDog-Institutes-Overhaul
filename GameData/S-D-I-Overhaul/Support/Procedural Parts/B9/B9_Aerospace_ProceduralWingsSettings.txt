@@ -1,0 +1,108 @@
+@PART[B9_Aero_Wing_Procedural_TypeA]:AFTER[UnKerballedStart]
+{
+	@title = B9 Procedural Wing (Spaceplane)
+
+	!MODULE[ModuleFuelTanks] {}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		volume = 3.84
+		basemass = -1
+		utilizationTweakable = true
+		utilization = 0.5
+		type = Structural
+		typeAvailable = Fuselage
+		typeAvailable = Structural
+	}
+}
+@PART[B9_Aero_Wing_Procedural_TypeB]:AFTER[UnKerballedStart]
+{
+	@title = B9 Procedural Control Surface (Spaceplane)
+}
+@PART[B9_Aero_Wing_Procedural_TypeC]:AFTER[UnKerballedStart]
+{
+	@title = B9 Procedural Wing, All-Moving (Spaceplane)
+}
+
++PART[B9_Aero_Wing_Procedural_TypeA]:AFTER[UnKerballedStart]
+{
+	@name = RO-B9ProcWing-Supersonic
+	@title = B9 Procedural Wing (Supersonic)
+}
++PART[B9_Aero_Wing_Procedural_TypeB]:AFTER[UnKerballedStart]
+{
+	@name = RO-B9ProcCS-Supersonic
+	@title = B9 Procedural Control Surface (Supersonic)
+}
++PART[B9_Aero_Wing_Procedural_TypeC]:AFTER[UnKerballedStart]
+{
+	@name = RO-B9ProcAMWing-Supersonic
+	@title = B9 Procedural Wing, All-Moving (Supersonic)
+}
+
++PART[B9_Aero_Wing_Procedural_TypeA]:AFTER[UnKerballedStart]
+{
+	@name = RO-B9ProcWing-Early
+	@title = B9 Procedural Wing (Early)
+}
++PART[B9_Aero_Wing_Procedural_TypeB]:AFTER[UnKerballedStart]
+{
+	@name = RO-B9ProcCS-Early
+	@title = B9 Procedural Control Surface (Early)
+}
++PART[B9_Aero_Wing_Procedural_TypeC]:AFTER[UnKerballedStart]
+{
+	@name = RO-B9ProcAMWing-Early
+	@title = B9 Procedural Wing, All-Moving (Early)
+}
+
+@PART[RO-B9Proc*-Early]:AFTER[UnKerballedStart]
+{
+	@description = Rated for Mach 1 flight and below.
+	
+	@mass = 0.00001
+	@maxTemp = 415
+	%skinMaxTemp = 475
+	%thermalMassModifier = 0.75
+	%skinThermalMassModifier = 3.0
+	%emissiveConstant = 0.4
+
+	@MODULE[FARWingAerodynamicModel]
+	{
+		%massMultiplier = 0.35
+	}
+}
+@PART[RO-B9Proc*-Supersonic]:AFTER[UnKerballedStart]
+{
+	@description = Rated for Mach 3 flight.
+
+	@mass = 0.00001
+	@maxTemp = 800
+	%skinMaxTemp = 900
+	%thermalMassModifier = 1.0
+	%skinThermalMassModifier = 3.0
+	%emissiveConstant = 0.75
+	
+	@MODULE[FARWingAerodynamicModel]
+	{
+		%massMultiplier = 0.7
+	}
+}
+
+@PART[B9_Aero_Wing_Procedural_*]:AFTER[UnKerballedStart]
+{
+	@description = Rated for LEO reentries.
+
+	@mass = 0.00001
+	@maxTemp = 1500
+	%skinMaxTemp = 2500
+	%thermalMassModifier = 1.25
+	%skinThermalMassModifier = 3.0
+	%emissiveConstant = 0.95
+}
+
+@PART[B9_Aero_Wing*|RO-B9Proc*]:FOR[zzzRealismOverhaul]
+{
+	!MODULE[ModuleHeatShield] {}
+	!MODULE[ModuleAblator] {}
+}

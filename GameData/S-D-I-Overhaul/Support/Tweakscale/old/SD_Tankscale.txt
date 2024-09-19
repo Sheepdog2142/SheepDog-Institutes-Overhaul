@@ -1,0 +1,183 @@
+@SCALETYPE[US_TankScale]:FINAL
+{
+    freeScale = false
+    scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5, 7.5, 10
+    scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m, 7.5m, 10m
+    defaultScale = 1.25
+}
+
+@SCALETYPE[US_Con]:FINAL
+{
+    freeScale = false
+    scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5, 7.5, 10
+    scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m, 7.5m, 10m
+    defaultScale = 1.25
+}
+
+@SCALETYPE[US_RCS]:FINAL
+{
+    freeScale = true
+    scaleFactors = 25, 50, 100, 150, 200
+    scaleNames = 25%, 50%, 100%, 150%, 200%
+    defaultScale = 100
+}
+
+@SCALETYPE[US_Power]:FINAL
+{
+    freeScale = ture
+    scaleFactors = 25, 50, 100, 150, 200
+    scaleNames = 25%, 50%, 100%, 150%, 200%
+    defaultScale = 100
+}
+
+// Tech-Locked Scale Factors for US_TankScale
+@SCALETYPE[US_TankScale]:FINAL
+{
+    %TECHLIMITS
+    {
+        fabrication
+        {
+            scaleFactors = 0.625
+            scaleNames = 0.625m
+        }
+        basicConstruction
+        {
+            scaleFactors = 0.625, 1.25
+            scaleNames = 0.625m, 1.25m
+        }
+        fuelSystems
+        {
+            scaleFactors = 0.625, 1.25, 1.875
+            scaleNames = 0.625m, 1.25m, 1.875m
+        }
+        advFuelSystems
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m
+        }
+        largeVolumeContainment
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m
+        }
+        highPerformanceFuelSystems
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m
+        }
+        specializedFuelStorage
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5, 7.5
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m, 7.5m
+        }
+        extremeFuelStorage
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5, 7.5, 10
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m, 7.5m, 10m
+        }
+    }
+}
+
+// Tech-Locked Scale Factors for US_Con
+@SCALETYPE[US_Con]:FINAL
+{
+    %TECHLIMITS
+    {
+        fabrication
+        {
+            scaleFactors = 0.625
+            scaleNames = 0.625m
+        }
+        basicConstruction
+        {
+            scaleFactors = 0.625, 1.25
+            scaleNames = 0.625m, 1.25m
+        }
+        generalConstruction
+        {
+            scaleFactors = 0.625, 1.25, 1.875
+            scaleNames = 0.625m, 1.25m, 1.875m
+        }
+        advConstruction
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m
+        }
+        specializedConstruction
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m
+        }
+        advMetalworks
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m
+        }
+        orbitalAssembly
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5, 7.5
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m, 7.5m
+        }
+        orbitalMegastructures
+        {
+            scaleFactors = 0.625, 1.25, 1.875, 2.5, 3.75, 5, 7.5, 10
+            scaleNames = 0.625m, 1.25m, 1.875m, 2.5m, 3.75m, 5m, 7.5m, 10m
+        }
+    }
+}
+
+// Tech-Locked Scale Factors for US_RCS
+@SCALETYPE[US_RCS]:FINAL
+{
+    %TECHLIMITS
+    {
+        stability
+        {
+            scaleFactors = 25, 50
+            scaleNames = 25%, 50%
+        }
+        flightControl
+        {
+            scaleFactors = 25, 50, 100
+            scaleNames = 25%, 50%, 100%
+        }
+        advFlightControl
+        {
+            scaleFactors = 25, 50, 100, 150
+            scaleNames = 25%, 50%, 100%, 150%
+        }
+        specializedControl
+        {
+            scaleFactors = 25, 50, 100, 150, 200
+            scaleNames = 25%, 50%, 100%, 150%, 200%
+        }
+    }
+}
+
+// Tech-Locked Scale Factors for US_Power
+@SCALETYPE[US_Power]:FINAL
+{
+    %TECHLIMITS
+    {
+        electrics
+        {
+            scaleFactors = 25, 50
+            scaleNames = 25%, 50%
+        }
+        advElectrics
+        {
+            scaleFactors = 25, 50, 100
+            scaleNames = 25%, 50%, 100%
+        }
+        highPowerElectrics
+        {
+            scaleFactors = 25, 50, 100, 150
+            scaleNames = 25%, 50%, 100%, 150%
+        }
+        specializedElectrics
+        {
+            scaleFactors = 25, 50, 100, 150, 200
+            scaleNames = 25%, 50%, 100%, 150%, 200%
+        }
+    }
+}
