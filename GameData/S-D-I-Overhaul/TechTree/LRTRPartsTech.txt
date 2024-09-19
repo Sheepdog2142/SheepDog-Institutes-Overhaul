@@ -1,0 +1,288 @@
+@PART[lrtr-early-guidence]:AFTER[LRTR]
+{
+	%TechRequired = start
+	%cost = 100
+	%entryCost = 0
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[lrtr-liquidEngine303]:AFTER[LRTR]
+{
+	%TechRequired = basicRocketry
+	%cost = 300
+	%entryCost = 1600
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[lrtr-liquidEngineT15]:AFTER[LRTR]
+{
+	%TechRequired = generalRocketry
+	%cost = 500
+	%entryCost = 1500
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-GeigerMuller]:AFTER[LRTR]
+{
+	%TechRequired = engineering101
+	%cost = 200
+	%entryCost = 800
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-ScintillationCounter]:AFTER[LRTR]
+{
+	%TechRequired = gadgets
+	%cost = 250
+	%entryCost = 1000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-IRRadiometer]:AFTER[LRTR]
+{
+	%TechRequired = engineering101
+	%cost = 1000
+	%entryCost = 4000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-HRIRRadiometer]:AFTER[LRTR]
+{
+	%TechRequired = basicScience
+	%cost = 1100
+	%entryCost = 3200
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-TwoChannelIR]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 8800
+	%entryCost = 12200
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-PMIRR]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 4000
+	%entryCost = 12000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-IRIS]:AFTER[LRTR]
+{
+	%TechRequired = basicScience
+	%cost = 1000
+	%entryCost = 6000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-UVSpectrometer]:AFTER[LRTR]
+{
+	%TechRequired = basicScience
+	%cost = 1000
+	%entryCost = 4000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-NIMS]:AFTER[LRTR]
+{
+	%TechRequired = scienceTech
+	%cost = 2900
+	%entryCost = 6500
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-VIMS]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 5000
+	%entryCost = 10000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-EarlyMagnet]:AFTER[LRTR]
+{
+	%TechRequired = scienceTech
+	%cost = 1000
+	%entryCost = 3000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-HeliumMagnet]:AFTER[LRTR]
+{
+	%TechRequired = basicScience
+	%cost = 1000
+	%entryCost = 3000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-FluxgateMagnet]:AFTER[LRTR]
+{
+	%TechRequired = scienceTech
+	%cost = 1000
+	%entryCost = 3000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-Micrometeorite]:AFTER[LRTR]
+{
+	%TechRequired = gizmos
+	%cost = 100
+	%entryCost = 400
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-IonMassSpectrometer]:AFTER[LRTR]
+{
+	%TechRequired = gadgets
+	%cost = 150
+	%entryCost = 500
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-MIMS]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 3500
+	%entryCost = 9300
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-QuadropoleMassSpectrometer]:AFTER[LRTR]
+{
+	%TechRequired = spaceExploration
+	%cost = 500
+	%entryCost = 2000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-ImprovedFilmCamera]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 7500
+	%entryCost = 10000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-HighResFilmCamera]:AFTER[LRTR]
+{
+	%TechRequired = scientificOutposts
+	%cost = 10000
+	%entryCost = 20000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-DigitalCamera]:AFTER[LRTR]
+{
+	%TechRequired = scientificOutposts
+	%cost = 10000
+	%entryCost = 20000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-PlasmaWave]:AFTER[LRTR]
+{
+	%TechRequired = basicScience
+	%cost = 900
+	%entryCost = 2200
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-SWPlasmaAnalyzer]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 8800
+	%entryCost = 14000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-RPWS]:AFTER[LRTR]
+{
+	%TechRequired = scienceTech
+	%cost = 4500
+	%entryCost = 10000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-SurfaceSampleScoop]:AFTER[LRTR]
+{
+	%TechRequired = advExploration
+	%cost = 1080
+	%entryCost = 4800
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-EarlyTVCamera]:AFTER[LRTR]
+{
+	%TechRequired = gadgets
+	%cost = 400
+	%entryCost = 1200
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-BasicTVCamera]:AFTER[LRTR]
+{
+	%TechRequired = advExploration
+	%cost = 4300
+	%entryCost = 8200
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-ImprovedTVCamera]:AFTER[LRTR]
+{
+	%TechRequired = advScienceTech
+	%cost = 4700
+	%entryCost = 12000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-AdvancedImager]:AFTER[LRTR]
+{
+	%TechRequired = scienceTech
+	%cost = 4300
+	%entryCost = 8200
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+
+@PART[RO-HIRES]:AFTER[LRTR]
+{
+	%TechRequired = scientificOutposts
+	%cost = 10000
+	%entryCost = 20000
+	@description ^=:$: <b><color=green>From LRTR mod</color></b>
+	-lrtrNoConfig = DEL
+}
+

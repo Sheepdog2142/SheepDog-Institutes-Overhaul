@@ -1,0 +1,690 @@
+/*********************** Saturn Series ***********************//
+/************************************************************//
+
+//*********************** Tier 6: Saturn I / IB ***********************//
+
+// ** Engines ** //
+@PART[bluedog_Saturn_Engine_H1|bluedog_Saturn_Engine_J2]:FINAL
+{
+    %TechRequired = heavierRocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_Saturn_S1_Tanks|bluedog_Saturn_S4B_Tank|bluedog_Saturn_S1D_SustainerTank]:FINAL
+{
+    %TechRequired = largeVolumeContainment
+}
+
+// ** Structural Components ** //
+@PART[bluedog_Saturn_S1_EngineMount|bluedog_Saturn_S1_LargeFin|bluedog_Saturn_S1_Retro|bluedog_Saturn_S1_SmallFin|bluedog_Saturn_S1B_Fin|bluedog_Saturn_S1B_Interstage|bluedog_Saturn_S4B_EngineMount|bluedog_Saturn_S4B_InstrumentUnit|bluedog_Saturn_S4B_Interstage|bluedog_Saturn_S4B_SLA|bluedog_Saturn_S4B_SLA_JettisonBase|bluedog_Saturn_S4B_SLA_Panel|bluedog_Saturn_S4B_Ullage|bluedog_Saturn_S1D_BoosterSkirt|bluedog_Saturn_S1D_Vernier]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+// ** Pegasus Satellite Components ** //
+@PART[bluedog_Pegasus_ElectronicsCanister|bluedog_Pegasus_ElectronSpectrometer|bluedog_Pegasus_ForwardSolar|bluedog_Pegasus_MM_Experiment|bluedog_Pegasus_Solar|bluedog_Pegasus_Truss]:FINAL
+{
+    %TechRequired = precisionEngineering
+}
+
+// ** Parachutes ** //
+@PART[bluedog_Saturn_S1D_Parachute]:FINAL
+{
+    %TechRequired = advLanding
+}
+
+// ** Specialized Structural Components ** //
+@PART[bluedog_Saturn_S4_2p5m_centaurAdapter|bluedog_Saturn_S4_2p5m_spacecraftAdapter|bluedog_Saturn_S4_Adapter|bluedog_Saturn_S4_AdapterTank|bluedog_Saturn_S4_Boilerplate|bluedog_Saturn_S4_EngineMount|bluedog_Saturn_S4_InstrumentUnit|bluedog_Saturn_S4_Interstage]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+// ** Fuel Tank ** //
+@PART[bluedog_Saturn_S4_Tank]:FINAL
+{
+    %TechRequired = largeVolumeContainment
+}
+
+//*********************** Tier 7: Saturn IC ***********************//
+
+// ** Engines ** //
+@PART[bluedog_Saturn_Engine_F1]:FINAL
+{
+    %TechRequired = specializedRocketry7
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_Saturn_S1C_Tank]:FINAL
+{
+    %TechRequired = largeVolumeContainment
+}
+
+// ** Structural Components ** //
+@PART[bluedog_Saturn_S1C_EngineMount|bluedog_Saturn_S1C_Fin|bluedog_Saturn_S1C_Decoupler]:FINAL
+{
+    %TechRequired = advMetalworks
+}
+
+//*********************** Tier 8: Saturn V ***********************//
+
+// ** Engines ** //
+@PART[bluedog_Saturn_Engine_F1|bluedog_Saturn_Engine_J2]:FINAL
+{
+    %TechRequired = veryHeavyRocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_Saturn_S1C_Tank|bluedog_Saturn_S2_Tank|bluedog_Saturn_S4B_Tank]:FINAL
+{
+    %TechRequired = highPerformanceFuelSystems
+}
+
+// ** Structural Components ** //
+@PART[bluedog_Saturn_S1C_EngineMount|bluedog_Saturn_S1C_Decoupler|bluedog_Saturn_S2_EngineMount|bluedog_Saturn_S2_Interstage|bluedog_Saturn_S4B_EngineMount|bluedog_Saturn_S4B_Interstage|bluedog_Saturn_S4B_SLA|bluedog_Saturn_S4B_SLA_JettisonBase|bluedog_Saturn_S4B_SLA_Panel]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+// ** Aerodynamic Surfaces ** //
+@PART[bluedog_Saturn_S1C_Fin]:FINAL
+{
+    %TechRequired = advancedAerodynamics
+}
+
+// ** Propulsion Support ** //
+@PART[bluedog_Saturn_S2_Ullage|bluedog_Saturn_S4B_Ullage]:FINAL
+{
+    %TechRequired = precisionPropulsion
+}
+
+// ** Command & Control ** //
+@PART[bluedog_Saturn_S4B_InstrumentUnit]:FINAL
+{
+    %TechRequired = specializedControl
+}
+
+
+// ** Specialized Structural Components ** //
+@PART[bluedog_Saturn_SideDockingPort|bluedog_Saturn_SideDockingRail]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+//*********************** Tier 9: Saturn INT-20 / INT-21 / INT-27 ***********************//
+
+// ** Engines ** //
+@PART[bluedog_Saturn_AJ260]:FINAL
+{
+    %TechRequired = specializedRocketry9
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_Saturn_LRB_Tank|bluedog_Saturn_S1E_Tank]:FINAL
+{
+    %TechRequired = specializedFuelStorage
+}
+
+// ** Propulsion Support ** //
+@PART[bluedog_Saturn_AJ260_Sepratron]:FINAL
+{
+    %TechRequired = precisionPropulsion
+}
+
+// ** Aerodynamic Surfaces ** //
+@PART[bluedog_Saturn_AJ260_Nose|bluedog_Saturn_S2_Fin]:FINAL
+{
+    %TechRequired = advancedAerodynamics
+}
+
+// ** Structural Components ** //
+@PART[bluedog_Saturn_LRB_EngineMount|bluedog_Saturn_AJ260_RadialDecoupler|bluedog_Saturn_S2_3p75_mount|bluedog_Saturn_S2_dockingPort|bluedog_saturn_s2_dockingPortActive]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+// ** Habitat Conversion ** //
+@PART[bluedog_Saturn_S2_wetWorkshop]:FINAL
+{
+    %TechRequired = advExploration
+}
+
+
+//*********************** Tier 10: Saturn MLV ***********************//
+
+// ** Engines & Propulsion ** //
+@PART[bluedog_S2_M1_mount]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_Saturn_S4F_Tank]:FINAL
+{
+    %TechRequired = exoticFuelStorage
+}
+
+// ** Structural Components ** //
+@PART[bluedog_Saturn_4p25m_adapters|bluedog_Saturn_5m_adapter|bluedog_Saturn_6p25m_adapter|bluedog_Saturn_S4C_ShellPort|bluedog_Saturn_S4C_TrussPort]:FINAL
+{
+    %TechRequired = specializedConstruction
+}
+
+// ** Radiators ** //
+@PART[bluedog_Saturn_Radiator_Large|bluedog_Saturn_Radiator_Medium|bluedog_Saturn_Radiator_Small]:FINAL
+{
+    %TechRequired = specializedRadiators
+}
+
+// ** Auxiliary Power ** //
+@PART[bluedog_Saturn_SNAP29]:FINAL
+{
+    %TechRequired = highTechElectricalSystems
+}
+
+//*********************** Saturn Nuclear Propulsion **********************//
+
+// ** Nuclear Propulsion (Tier 7) ** //
+// Engines //
+@PART[bluedog_CentaurD_RL10]:FINAL
+{
+    @TechRequired = nuclearPropulsion  // Tier 7
+}
+
+// ** Advanced Nuclear Propulsion (Tier 8) ** //
+// Engines //
+@PART[bluedog_XLR129|bluedog_Saturn_Engine_J2]:FINAL
+{
+    @TechRequired = improvedNuclearPropulsion  // Tier 8
+}
+
+// ** Experimental Nuclear Propulsion (Tier 9) ** //
+// Engines //
+@PART[bluedog_M1]:FINAL
+{
+    @TechRequired = experimentalNuclearPropulsion  // Tier 9
+}
+
+
+
+
+//*********************** Tier 5: Titan I / Prometheus I Series ***********************//
+
+// ** Titan I / Prometheus I ** //
+// Engines //
+@PART[bluedog_Titan_LR87|bluedog_LR91]:FINAL
+{
+    @TechRequired = heavyRocketry
+}
+// Fuel Tanks //
+@PART[bluedog_Titan1_S1_EngineShroud|bluedog_Titan1_S2_Tank|bluedog_Titan_S1_LowerTank|bluedog_Titan_S1_UpperTank|bluedog_Titan_S2_Tank]:FINAL
+{
+    @TechRequired = fuelSystems
+}
+// Structural //
+@PART[bluedog_Titan1_StructuralAdapter]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+//*********************** Tier 6: Titan II / Prometheus II Series ***********************//
+
+// ** Titan II / Prometheus II ** //
+// Engines //
+@PART[bluedog_Titan_LR87|bluedog_LR91]:FINAL
+{
+    @TechRequired = heavierRocketry
+}
+// Fuel Tanks //
+@PART[bluedog_Titan_S1_LowerTank|bluedog_Titan_S1_UpperTank|bluedog_Titan_S2_Tank]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+// Structural //
+@PART[bluedog_Titan_StructuralAdapter]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+
+//*********************** Tier 7: Titan III / Prometheus III Series ***********************//
+
+// ** Titan III / Prometheus III ** //
+// Engines //
+@PART[bluedog_Titan_LR87_LH2_Single]:FINAL
+{
+    @TechRequired = specializedRocketry7
+}
+// Fuel Tanks //
+@PART[bluedog_Titan_S1_LowerTank|bluedog_Titan_S1_UpperTank|bluedog_Titan_S2_Tank]:FINAL
+{
+    @TechRequired = largeVolumeContainment
+}
+// Structural //
+@PART[bluedog_Titan_S2_EngineMount|bluedog_Titan_S2_Interstage]:FINAL
+{
+    @TechRequired = structures4
+}
+
+//*********************** Tier 7: Titan IV / Prometheus IV Series ***********************//
+
+// ** Titan IV / Prometheus IV ** //
+// Engines //
+@PART[bluedog_Titan_LR87_LH2_Single]:FINAL
+{
+    @TechRequired = specializedRocketry7
+}
+// Fuel Tanks //
+@PART[bluedog_Titan_S1_LowerTank|bluedog_Titan_S1_UpperTank|bluedog_Titan_S2_Tank]:FINAL
+{
+    @TechRequired = largeVolumeContainment
+}
+// Structural //
+@PART[bluedog_Titan_S2_EngineMount|bluedog_Titan_S2_Interstage]:FINAL
+{
+    @TechRequired = structures4
+}
+
+//*********************** Tier 7: Titan LDC Series ***********************//
+
+// ** Titan LDC ** //
+// Engines //
+@PART[bluedog_Titan_LR87_LH2_Single]:FINAL
+{
+    @TechRequired = specializedRocketry7
+}
+// Fuel Tanks //
+@PART[bluedog_Titan_S1_LowerTank|bluedog_Titan_S1_UpperTank|bluedog_Titan_S2_Tank]:FINAL
+{
+    @TechRequired = largeVolumeContainment
+}
+// Structural //
+@PART[bluedog_Titan_LDC_EngineMount|bluedog_Titan_LDC_Interstage]:FINAL
+{
+    @TechRequired = structures4
+}
+
+
+/*********************** Atlas Series ***********************//
+/************************************************************//
+
+
+//*********************** Tier 4: Atlas LV Series ***********************//
+
+// ** Atlas LV Series ** //
+// Engines //
+@PART[bluedog_atlas_LR105engine|bluedog_atlas_LR89engine]:FINAL
+{
+    @TechRequired = advRocketry
+}
+// Structural //
+@PART[bluedog_Atlas_OV1_decoupler|bluedog_Atlas_tricoupler|bluedog_atlas_boosterSkirt|bluedog_Atlas_A_noseCone]:FINAL
+{
+    @TechRequired = generalConstruction
+}
+// Fuel Tanks //
+@PART[bluedog_Atlas_SCORE|bluedog_atlas_conicalTanks|bluedog_atlas_aftTank]:FINAL
+{
+    @TechRequired = customFuelTanks
+}
+
+
+//*********************** Tier 5: Atlas SLV and Atlas-Centaur Series ***********************//
+
+// ** Atlas SLV Series ** //
+// Engines //
+@PART[bluedog_Atlas_SL105engine]:FINAL
+{
+    @TechRequired = heavyRocketry
+}
+// Structural //
+@PART[bluedog_Atlas_SLV_decoupler|bluedog_Atlas_SLV_tricoupler|bluedog_Atlas_SLV_boosterSkirt|bluedog_Atlas_SLV_noseCone]:FINAL
+{
+    @TechRequired = advConstruction
+}
+// Fuel Tanks //
+@PART[bluedog_Atlas_SLV_tank]:FINAL
+{
+    @TechRequired = fuelSystems
+}
+
+// ** Atlas II / IIAS Series ** //
+// Engines //
+@PART[bluedog_Atlas_IIASengine]:FINAL
+{
+    @TechRequired = heavyRocketry
+}
+// Structural //
+@PART[bluedog_Atlas_IIAS_decoupler|bluedog_Atlas_IIAS_tricoupler|bluedog_Atlas_IIAS_boosterSkirt|bluedog_Atlas_IIAS_noseCone]:FINAL
+{
+    @TechRequired = advConstruction
+}
+// Fuel Tanks //
+@PART[bluedog_Atlas_IIAS_conicalTanks|bluedog_Atlas_IIAS_aftTank]:FINAL
+{
+    @TechRequired = fuelSystems
+}
+
+
+//*********************** Tier 6: Atlas III and Atlas V (Early Versions) ***********************//
+
+// ** Atlas IIIA Series ** //
+// Engines //
+@PART[bluedog_AtlasIIIA_RD180engine]:FINAL
+{
+    @TechRequired = efficientFlightSystems
+}
+// Structural //
+@PART[bluedog_AtlasIIIA_decoupler|bluedog_AtlasIIIA_tricoupler|bluedog_AtlasIIIA_boosterSkirt|bluedog_AtlasIIIA_noseCone]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+// Fuel Tanks //
+@PART[bluedog_AtlasIIIA_tank]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+
+// ** Atlas IIIB Series ** //
+// Engines //
+@PART[bluedog_AtlasIIIB_RD180engine]:FINAL
+{
+    @TechRequired = efficientFlightSystems
+}
+// Structural //
+@PART[bluedog_AtlasIIIB_decoupler|bluedog_AtlasIIIB_tricoupler|bluedog_AtlasIIIB_boosterSkirt|bluedog_AtlasIIIB_noseCone]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+// Fuel Tanks //
+@PART[bluedog_AtlasIIIB_tank]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+
+// ** Atlas V Series ** //
+// Engines //
+@PART[bluedog_AtlasV_RD180engine]:FINAL
+{
+    @TechRequired = efficientFlightSystems
+}
+// Structural //
+@PART[bluedog_AtlasV_centaurFLR|bluedog_AtlasV_Star5F|bluedog_AtlasV_HLVnoseCone|bluedog_AtlasV_5xx_conicalAdapter|bluedog_AtlasV_HLVdecoupler|bluedog_AtlasV_SRMDecoupler|bluedog_AtlasV_2p5m_EngineMount|bluedog_Atlas3_1p875m_mount|bluedog_AtlasV_decoupler|bluedog_AtlasV_tricoupler|bluedog_AtlasV_boosterSkirt|bluedog_AtlasV_noseCone]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+// Fuel Tanks //
+@PART[bluedog_AtlasV_CCB_lower|bluedog_AtlasV_CCB_upper|bluedog_AtlasV_tank]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+
+
+//*********************** Tier 7: Atlas V 551 and 411 ***********************//
+
+// ** Atlas V 551 and 411 Series ** //
+// Engines //
+@PART[bluedog_AtlasV_551engine|bluedog_AtlasV_411engine]:FINAL
+{
+    @TechRequired = specializedRocketry7
+}
+// Structural //
+@PART[bluedog_AtlasV_551_decoupler|bluedog_AtlasV_411_tricoupler|bluedog_AtlasV_551_boosterSkirt|bluedog_AtlasV_411_noseCone]:FINAL
+{
+    @TechRequired = structures4
+}
+// Fuel Tanks //
+@PART[bluedog_AtlasV_551_tank|bluedog_AtlasV_411_conicalTanks|bluedog_AtlasV_551_aftTank]:FINAL
+{
+    @TechRequired = largeVolumeContainment
+}
+
+
+
+//*********************** Delta Series ***********************//
+/************************************************************//
+
+
+//*********************** Tier 4: Delta I / Delta II Series ***********************//
+
+// ** Structural ** //
+@PART[bluedog_DeltaP_Stage|bluedog_DeltaK_Stage|bluedog_Delta_Miniskirt_1p5m|bluedog_Delta_Miniskirt_1p875m|bluedog_Delta2_dpaf_base|bluedog_Delta2_dpaf_top]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+// ** Engines ** //
+@PART[bluedog_AJ10_118F|bluedog_TR_201]:FINAL
+{
+    @TechRequired = advRocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_DCSS_Tank]:FINAL
+{
+    @TechRequired = customFuelTanks
+}
+
+// ** Avionics ** //
+@PART[bluedog_Delta_Avionics]:FINAL
+{
+    @TechRequired = stability
+}
+
+// ** Fairings and Nose Cones ** //
+@PART[bluedog_DCSS_2p5mFairing|bluedog_DeltaIV_noseCone]:FINAL
+{
+    @TechRequired = aerodynamicSystems
+}
+
+// ** Adapters ** //
+@PART[bluedog_DCSS_PayloadAdapter_0p9375m|bluedog_DCSS_PayloadAdapter_1p875m|bluedog_DCSS_PayloadAdapter_2p5m|bluedog_DCSS_StructAdapter]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+// ** Interstages ** //
+@PART[bluedog_DCSS_Interstage|bluedog_DeltaIV_1p5m_Interstage]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+
+//*********************** Tier 5: Delta III Series ***********************//
+
+// ** Engines ** //
+@PART[bluedog_Delta_GEM40|bluedog_Delta_GEM40_Inline|bluedog_Delta_GEM46|bluedog_Delta_GEM60]:FINAL
+{
+    @TechRequired = heavyRocketry
+}
+
+// ** Structural ** //
+@PART[bluedog_DeltaIV_DCSS_3p125_payloadAdapter]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+// ** Fairings and Nose Cones ** //
+@PART[bluedog_DeltaIV_DCSS_fairingBase]:FINAL
+{
+    @TechRequired = aerodynamicSystems
+}
+
+
+//*********************** Tier 6: Delta IV Series ***********************//
+
+// ** Engines ** //
+@PART[bluedog_DeltaIV_RS68]:FINAL
+{
+    @TechRequired = heavierRocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[bluedog_DeltaIV_DCSS_5m|bluedog_DeltaIV_s1_upperTank|bluedog_DeltaIV_s1_lowerTank]:FINAL
+{
+    @TechRequired = largeVolumeContainment
+}
+
+// ** Structural ** //
+@PART[bluedog_DeltaIV_heavyDecoupler|bluedog_Delta4_dpaf_base|bluedog_Delta4_dpaf_top|bluedog_DeltaIV_3p125interstage]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+
+
+
+/*********************** Centaur Series ***********************//
+/************************************************************//
+
+
+//*********************** Tier 5: Early Centaur Developments ***********************//
+
+// ** Centaur Series ** //
+// Structural //
+@PART[bluedog_centaur1875mAdapterFairing|bluedog_CentaurD_EngineMount]:FINAL
+{
+    @TechRequired = advConstruction  // Early integration with Atlas and Delta rockets
+}
+// Fuel Tanks //
+@PART[bluedog_CentaurD_FuelTank]:FINAL
+{
+    @TechRequired = fuelSystems  // Initial cryogenic fuel tank designs
+}
+
+//*********************** Tier 6: Advanced Centaur Variants ***********************//
+
+// ** Centaur Series ** //
+// Avionics & Control //
+@PART[bluedog_CentaurT_Avionics|bluedog_Centaur_ARCM]:FINAL
+{
+    @TechRequired = specializedControl  // Improved avionics for advanced missions
+}
+// Structural //
+@PART[bluedog_Centaur_2p5m_Adapter]:FINAL
+{
+    @TechRequired = specializedConstruction  // Advanced structural components for Delta and Atlas variants
+}
+// Fuel Tanks //
+@PART[bluedog_CentaurT_TankA|bluedog_CentaurT_TankB|bluedog_CentaurT_TankC|bluedog_CentaurT_TankD]:FINAL
+{
+    @TechRequired = advFuelSystems  // Advanced cryogenic fuel tank designs for long-duration missions
+}
+// Kick Stage //
+@PART[bluedog_Centaur_Kickstage]:FINAL
+{
+    @TechRequired = precisionPropulsion  // Kick stage for precise orbital insertion
+}
+
+//*********************** Tier 7: Modern Centaur Applications ***********************//
+
+// ** Centaur Series ** //
+// Nuclear Engines //
+@PART[bluedog_CentaurD_RL10|bluedog_RS30]:FINAL
+{
+    @TechRequired = nuclearPropulsion  // Advanced nuclear propulsion for Centaur stages in modern missions
+}
+
+
+//*********************** SRB CATEGORY ***********************//
+
+// ** Minuteman / Minotaur Series ** //
+// Engines //
+@PART[bluedog_Minotaur1_M55A1|bluedog_Minotaur1_SR19|bluedog_Minuteman_SR73]:FINAL
+{
+    @TechRequired = generalRocketry  // Tier 5
+}
+
+// ** Peacekeeper Series ** //
+// Engines //
+@PART[bluedog_Peacekeeper_SR120|bluedog_Peacekeeper_SR119]:FINAL
+{
+    @TechRequired = rocketry7  // Tier 7
+}
+
+// ** Pegasus Series ** //
+// Engines //
+@PART[bluedog_Pegasus_Orion50SXL|bluedog_Pegasus_Orion50XL|bluedog_Pegasus_Orion38]:FINAL
+{
+    @TechRequired = heavyRocketry  // Tier 5
+}
+
+// ** Athena Series ** //
+// Engines //
+@PART[bluedog_Athena_Castor30]:FINAL
+{
+    @TechRequired = rocketry7  // Tier 7
+}
+
+// ** Saturn Series ** //
+// Ullage Motors //
+@PART[bluedog_Saturn_S2_Ullage|bluedog_Saturn_S4B_Ullage]:FINAL
+{
+    @TechRequired = rocketry7  // Tier 7
+}
+
+// ** Upper Stage Solids ** //
+// Engines //
+@PART[bluedog_UpperSolids_Star48BV|bluedog_UpperSolids_Star37FMV|bluedog_UpperSolids_Star37BV|bluedog_UpperSolids_Star37B|bluedog_UpperSolids_Altair|bluedog_UpperSolids_Star24]:FINAL
+{
+    @TechRequired = rocketry7  // Tier 7
+}
+
+// ** SRMU and UA120 Series ** //
+// Engines //
+@PART[bluedog_SRMU|bluedog_UA120]:FINAL
+{
+    @TechRequired = rocketry7  // Tier 7
+}
+
+// ** Burner II Series ** //
+// Engines //
+@PART[bluedog_Burner2]:FINAL
+{
+    @TechRequired = generalRocketry  // Tier 5
+}
+
+// ** Miscellaneous Solids ** //
+// Engines //
+@PART[bluedog_UpperSolids_BE3|bluedog_Castor1|bluedog_Castor2|bluedog_Castor4A]:FINAL
+{
+    @TechRequired = generalRocketry  // Tier 5
+}
+
+
+/// X-15 Series (1.875m) ///
+
+// Structural //
+@PART[bluedog_X15_Pylon|bluedog_X15_Fuselage|bluedog_X15_Wing|bluedog_X15_Nose|bluedog_X15_RearWing|bluedog_X15_DorsalFin|bluedog_X15_VentralFin|bluedog_X15_Airbrakes|bluedog_X15_WingtipPod]:FINAL
+{
+    @TechRequired = advAerodynamics
+}
+
+
+// Landing//
+@PART[bluedog_X15_NoseGear|bluedog_X15_Skid]:FINAL
+{
+    @TechRequired = advLanding
+}
+
+// Fuel //
+@PART[bluedog_X15_HeliumTank|bluedog_X15_DropTank]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+
+// Engines //
+@PART[bluedog_X15_Engine]:FINAL
+{
+    @TechRequired = supersonicFlight
+}
+
+// Science //
+@PART[bluedog_X15_SpyCamera|bluedog_X15_Horizon|bluedog_X15_Photometer|bluedog_X15_StellarCamera|bluedog_X15_AeroCamera]:FINAL
+{
+    @TechRequired = spaceExploration
+}
+
+// Command //
+@PART[bluedog_X15_Cockpit]:FINAL
+{
+    @TechRequired = advAerodynamics
+}
