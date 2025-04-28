@@ -26,7 +26,7 @@ The overhaul includes support for a wide range of popular KSP mods. A few highli
 ## Installation
 
 1. Download and install the latest version of **Kerbal Space Program**.
-2. Install the **Community Tech Tree** and **UNkerbalized Start** mods.
+2. Install the **Community Tech Tree**.
 3. Install **Kerbalism** (and recommended configurations).
 4. Download the **SheepDog Institute Overhaul** from [GitHub releases](#).
 5. Place the **SheepDog Institute Overhaul** folder in your KSP **GameData** directory.
