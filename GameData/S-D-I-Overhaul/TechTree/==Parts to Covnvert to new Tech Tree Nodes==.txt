@@ -1,0 +1,45 @@
+
+// Parts to Covnvert to new Tech Tree Nodes
+Rocketry7
+specializedRocketry7
+specializedRocketry8
+specializedRocketry9
+specializedRocketry10
+specializedRocketry11
+nearFutureConstruction
+Subsonic Flight to Heavy Subsonic Flight
+aeronautics to Early Aerodynamics
+earlyAviation to Intermediate Aerodynamics
+Gizmos to primitiveElectrics
+Gagets to earlyScientificInstruments
+fabrication to initalTooling
+ScanningTech to ??
+advUnmanned to ??
+Recycling to ??
+Experimental Science to ??
+earlyHeatManagement to ??
+
+
+
+
+//////// New Node Templet
+
+              RDNode
+    {
+        id = 
+        title = 
+        description = 
+        cost = 
+        hideEmpty = False
+        anyToUnlock = False
+        icon = 
+        pos = -1000,1000,0
+        scale = 0.6
+
+        Parent
+		{
+			parentID = 
+			lineFrom = RIGHT
+			lineTo = LEFT            
+		}        
+    } 
