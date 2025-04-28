@@ -1,0 +1,328 @@
+/*********************** Tanteras Launch Vehicles ***********************//
+/************************************************************//
+
+//*********************** Tier 2: Early Rocketry ***********************//
+
+
+
+//*********************** Tier 3: Early Orbital Rocketry ***********************//
+
+// ** Kosmos 2I Series ** //
+// Engines //
+@PART[chara_lv_engine_s0p5_2]:FINAL
+{
+    @TechRequired = basicRocketry
+}
+
+// Engines //
+@PART[chara_lv_engine_s0p5_1]:FINAL
+{
+    @TechRequired = basicRocketryEnhancements
+}
+
+// Fuel Tanks //
+@PART[chara_lv_fuel_tank_s0p5_1]:FINAL
+{
+    @TechRequired = initalTooling
+}
+
+// Fuel Tanks //
+@PART[chara_lv_fuel_tank_s0p5_2|chara_lv_fuel_tank_s0p5_3|chara_lv_fuel_tank_s0p5_4]:FINAL
+{
+    @TechRequired = structures1
+}
+
+
+
+
+//*********************** Tier 4: Advanced Rocketry ***********************//
+
+// ** Kosmos 3M Series ** //
+// Engines //
+@PART[corvus_lv_bare_engine_s1_1|corvus_lv_engine_s1_1]:FINAL
+{
+    @TechRequired = generalRocketryEnhancements
+}
+
+// Fuel Tanks //
+@PART[corvus_lv_fuel_tank_s1_1|corvus_lv_fuel_tank_s1_2|corvus_lv_fuel_tank_s1_3|corvus_lv_fuel_tank_s1_4]:FINAL
+{
+    @TechRequired = basicConstruction
+}
+
+
+//*********************** Tier 5: Heavy Rocketry ***********************//
+
+//*********************** Berehynia - Tsyklon Series ***********************//
+
+// ** Fuel Tanks ** //
+@PART[berehynia_lv_fuel_tank_s1p5_s1_1|berehynia_lv_fuel_tank_s1p5_3|berehynia_lv_fuel_tank_s1p5_2|berehynia_lv_fuel_tank_s1p5_1]:FINAL
+{
+    %TechRequired = fuelSystems
+}
+
+// ** Engine Mounts ** //
+@PART[berehynia_lv_engine_mount_s1p5_2|berehynia_lv_engine_mount_s1p5_1]:FINAL
+{
+    %TechRequired = advConstruction
+}
+
+/*********************** Tier 6: Heavier Rocketry ***********************//
+
+//*********************** Tier 6: Hydra - Zenit ***********************//
+@PART[hydra_lv_recovery_bay_srf_1|hydra_lv_recovery_bay_srf_2|hydra_lv_engine_mount_s2_2]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+
+@PART[hydra_lv_fuel_tank_s2_1|hydra_lv_fuel_tank_s2_2|hydra_lv_fuel_tank_s2_3|hydra_lv_fuel_tank_s2_4|hydra_lv_nose_fuel_tank_s2_1|hydra_lv_nose_fuel_tank_s2_2]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+
+/*********************** Tier 7: Specialized Rocketry ***********************//
+
+//*********************** Tier 7: Energia Series ***********************//
+
+// ** Fuel Tanks ** //
+@PART[rotanev_lv_toroidal_fuel_tank_s4_2|rotanev_lv_toroidal_fuel_tank_s4_1|rotanev_lv_nose_fuel_tank_s4_1|rotanev_lv_fuel_tank_s4_4|rotanev_lv_fuel_tank_s4_3|rotanev_lv_cap_fuel_tank_s4_1]:FINAL
+{
+    %TechRequired = largeVolumeContainment
+}
+
+// ** Engine Mounts ** //
+@PART[rotanev_lv_engine_mount_s4_4|rotanev_lv_engine_mount_s4_1]:FINAL
+{
+    %TechRequired = structures4
+}
+
+// ** Fairings ** //
+@PART[rotanev_lv_fairing_s4_1]:FINAL
+{
+    %TechRequired = composites
+}
+
+/================================/
+/*********************** Tier 8: Very Heavy Rocketry ***********************//
+/================================/
+
+//*********************** N1 Rocket (Libra) Parts ***********************//
+
+// ** Engine Mount ** //
+@PART[libra_lv_mount_s2_1]:FINAL
+{
+    @TechRequired = modernrocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[libra_lv_fuel_tank_s7p5_s6_1|libra_lv_fuel_tank_s6_s4_1|libra_lv_fuel_tank_s4_s3_1|libra_lv_fuel_tank_s2_2|libra_lv_fuel_tank_s2_1]:FINAL
+{
+    @TechRequired = highPerformanceFuelSystems
+}
+
+// ** Engines ** //
+@PART[libra_lv_engine_s7p5_1|libra_lv_engine_s0_3|libra_lv_engine_s0_2|libra_lv_engine_s0_1]:FINAL
+{
+    @TechRequired = veryHeavyRocketry
+}
+
+// ** Structural ** //
+@PART[libra_lv_basic_grid_fin_srf_2]:FINAL
+{
+    @TechRequired = experimentalAerodynamics
+}
+
+//*********************** Virgo Series ***********************//
+//*********************** Tier 5 ***********************//
+
+// ** Avionics ** //
+@PART[blok_d_v2_avionics_s1_1]:FINAL
+{
+    %TechRequired = specializedControl
+}
+
+// ** Fuel Tanks ** //
+@PART[blok_d_v2_fuel_tank_s2_1]:FINAL
+{
+    %TechRequired = fuelSystems
+}
+
+// ** Structural Components ** //
+@PART[blok_d_v2_interstage_s2_1]:FINAL
+{
+    %TechRequired = advConstruction
+}
+
+//*********************** Tantares - Soyuz ***********************//
+
+//*********************** Tier 4: Early Soyuz Development ***********************//
+
+// ** Engines ** //
+@PART[tantares_lv_engine_s1_1|tantares_lv_engine_rd_120_s0_1]:FINAL
+{
+    %TechRequired = generalRocketry
+}
+
+
+// ** Fuel Tanks ** //
+@PART[tantares_lv_fuel_tank_s1_1|tantares_lv_fuel_tank_s1_2|tantares_lv_fuel_tank_s1_3|tantares_lv_fuel_tank_s1_4]:FINAL
+{
+    %TechRequired = basicConstruction
+}
+
+//*********************** Tier 5: Intermediate Soyuz Development ***********************//
+
+// ** Engines ** //
+@PART[tantares_lv_engine_s1p5_2|tantares_lv_engine_rd_58_s0_1|tantares_lv_engine_rd_0210_s0_1]:FINAL
+{
+    %TechRequired = advRocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[tantares_lv_fuel_tank_s1p5_1|tantares_lv_fuel_tank_s1p5_2|tantares_lv_fuel_tank_s1p5_3|tantares_lv_fuel_tank_s1p5_4]:FINAL
+{
+    %TechRequired = generalConstruction
+}
+
+//*********************** Tier 6: Advanced Soyuz Development ***********************//
+
+// ** Engines ** //
+@PART[tantares_lv_engine_s1p5_3|tantares_lv_engine_rd_253_s0_1|tantares_lv_engine_rd_855_s0_1|tantares_lv_engine_rd_0122_s0_1]:FINAL
+{
+    %TechRequired = advRocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[tantares_lv_booster_fuel_tank_s1p5_1|tantares_lv_booster_fuel_tank_s1p5_2]:FINAL
+{
+    %TechRequired = customFuelTanks
+}
+
+//*********************** Tier 7: Specialized and High-End Soyuz Development ***********************//
+
+// ** Engines ** //
+@PART[tantares_lv_engine_rd_8_s0_1|tantares_lv_engine_rd_0213_s0_1|tantares_lv_engine_rd_252_s0_1|tantares_lv_engine_rd_0214_s0_1|tantares_lv_engine_rd_170_s0_1|tantares_lv_engine_rd_856_s0_1|tantares_lv_engine_rd_0120_s0_1]:FINAL
+{
+    %TechRequired = propulsionSystems
+}
+
+// ** Fuel Tanks ** //
+@PART[tantares_lv_fuel_tank_s1p5_s1_1|tantares_lv_fuel_tank_s1p5_s1_2|tantares_lv_fuel_tank_s1p5_s1_3|tantares_lv_fuel_tank_s1p5_s1_4]:FINAL
+{
+    %TechRequired = customFuelTanks
+}
+
+
+//*********************** Proton Series ***********************//
+//*********************** *************************************//
+
+//*********************** Tier 7: Proton V2 Series ***********************//
+
+// ** Engines ** //
+@PART[ALV_1_Engine_1|ALV_1_Engine_2|ALV_2_Engine_1|ALV_3_Engine_1]:FINAL
+{
+    %TechRequired = earlymodernrocketry
+}
+
+// ** Fuel Tanks ** //
+@PART[ALV_3_LFO_1|ALV_2_LFO_1|proton_v2_stage_3_fuel_tank_s2_1|proton_v2_stage_2_fuel_tank_s2_1|proton_v2_stage_1_fuel_tank_s2_1|proton_v2_stage_1_fuel_tank_s2_2]:FINAL
+{
+    %TechRequired = largeVolumeContainment
+}
+
+// ** Structural Components ** //
+@PART[proton_v2_stage_3_mount_s2_1|proton_v2_stage_3_interstage_s2_1|proton_v2_stage_2_mount_s2_1|proton_v2_stage_2_interstage_s2_1|proton_v2_stage_2_interstage_s2_2]:FINAL
+{
+    %TechRequired = structures4
+}
+
+
+
+//*********************** Castor Structural Parts ***********************//
+//*********************** *********************** ***********************//
+
+//*********************** Tier 2: Castor Structural Parts ***********************//
+@PART[castor_decoupler_s0_1]:FINAL
+{
+    @TechRequired = structures1
+}
+
+//*********************** Tier 3: Castor Structural Parts ***********************//
+@PART[castor_decoupler_s0p5_1]:FINAL
+{
+    @TechRequired = structures1p5
+}
+
+//*********************** Tier 4: Castor Structural Parts ***********************//
+@PART[castor_decoupler_s1_1|castor_truss_decoupler_s1_1]:FINAL
+{
+    @TechRequired = generalConstruction
+}
+
+//*********************** Tier 5: Castor Structural Parts ***********************//
+@PART[castor_decoupler_s1p5_1|castor_truss_decoupler_s1p5_1]:FINAL
+{
+    @TechRequired = advConstruction
+}
+
+//*********************** Tier 6: Castor Structural Parts ***********************//
+@PART[castor_decoupler_s2_1|castor_truss_decoupler_s2_2]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+
+@PART[castor_decoupler_s6_1]:FINAL
+{
+    @TechRequired = specializedConstruction
+}
+
+//*********************** Tier 7: Castor Structural Parts ***********************//
+@PART[castor_decoupler_s3_1|castor_decoupler_s4_1]:FINAL
+{
+    @TechRequired = advMetalworks
+}
+
+// Multi Use Fairings //
+@PART[canopus_fairing_s0p5_1|canopus_fairing_s1_1|canopus_fairing_s1p5_1|canopus_fairing_s2_1|canopus_fairing_s3_1]:FINAL
+{
+    @TechRequired = engineering101
+}
+
+//=================================//
+//========= CRAFT ================//
+
+// ** Vostok Series ** //
+// Engines //
+@PART[AndromedaUS_Engine_1|AndromedaUS_VernierEngine_1]:FINAL
+{
+    @TechRequired = generalRocketry
+}
+
+// Fuel Tanks //
+@PART[AndromedaUS_LFO_1]:FINAL
+{
+    @TechRequired = generalConstruction
+}
+
+// Structural //
+@PART[AndromedaUS_Decoupler_1]:FINAL
+{
+    @TechRequired = generalConstruction
+}
+
+// ** VA Crew Capsule / TKS ** //
+// Engines //
+@PART[alnair_us_engine_s1_1]:FINAL
+{
+    @TechRequired = precisionPropulsion
+}
+
+// Fuel Tanks //
+@PART[alnair_us_fuel_tank_s2_1]:FINAL
+{
+    @TechRequired = advFuelSystems
+}
+
+
+
+
