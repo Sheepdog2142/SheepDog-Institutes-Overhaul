@@ -1,4 +1,0 @@
-@PART[RetroMk1inline]:FINAL
-{
-    @TechRequired = intermediateaerodynamics
-}
