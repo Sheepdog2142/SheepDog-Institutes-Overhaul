@@ -1,0 +1,53 @@
+@PART[*]:HAS[@MODULE[ProceduralPart]]:FINAL
+{
+    @MODULE[TankContentSwitcher]
+    {
+        @TANK_TYPE_OPTION,*
+        {
+            @dryDensity *= 0.8
+            //@RESOURCE[SolidFuel]
+            //{
+            //    @unitsPerT *= 1.6
+            //}
+            @RESOURCE[MonoPropellant]
+            {
+                @unitsPerT *= 0.45
+            }
+        }
+    }
+    @MODULE[ProceduralPart]
+    {
+        @diameterMin *= 1.6
+        @diameterMax *= 1.6
+        @lengthMin *= 1.6
+        @lengthMax *= 1.6
+        @volumeMin *= 3.6
+        @volumeMax *= 3.6
+
+        @UPGRADES
+        {
+            @UPGRADE,*
+            {
+                @diameterMin *= 1.6
+                @diameterMax *= 1.6
+                @lengthMin *= 1.6
+                @lengthMax *= 1.6
+                @volumeMin *= 3.6
+                @volumeMax *= 3.6
+            }
+        }
+        @TECHLIMIT,*
+        {
+            @diameterMin *= 1.6
+            @diameterMax *= 1.6
+            @lengthMin *= 1.6
+            @lengthMax *= 1.6
+            @volumeMin *= 3.6
+            @volumeMax *= 3.6
+        }        
+    }
+    @MODULE[ProceduralSRB]
+    {
+        @thrust1m *= 2.56
+    }
+}

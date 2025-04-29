@@ -1,0 +1,116 @@
+/////////////////////////////////////////////////////////////
+// TWEAKSCALE EXCLUSION CONFIGURATION
+// Purpose: Prevent resizing of non-procedural fuel tanks and SRBs
+// Compatibility: Works with Real Fuels, excluding procedural parts and wings with fuel tanks
+/////////////////////////////////////////////////////////////
+
+// Exclude non-procedural fuel tanks from TweakScale, including Real Fuels compatibility
+// Description: Prevents resizing of all non-procedural fuel tanks
+@PART[*]:HAS[@MODULE[ModuleFuelTanks],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Fuel Tanks
+    // Excludes: Non-procedural fuel tanks
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@MODULE[ModuleCryoTank],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Cryogenic Tanks
+    // Excludes: Non-procedural cryogenic tanks
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@MODULE[ModuleTankManager],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Tank Managers
+    // Excludes: Non-procedural tanks managed by Real Fuels
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[LiquidFuel],@RESOURCE[Oxidizer],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Standard Fuel Tanks
+    // Excludes: Tanks containing LiquidFuel and Oxidizer
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[MonoPropellant],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Monopropellant Tanks
+    // Excludes: Tanks containing MonoPropellant
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[XenonGas],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Xenon Gas Tanks
+    // Excludes: Tanks containing XenonGas
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[SolidFuel],!MODULE[ProceduralPart]]:FINAL
+{
+    // Category: Solid Rocket Boosters (SRBs)
+    // Excludes: SRBs
+    !MODULE[TweakScale] {}
+}
+
+// Exclude Real Fuels specific modules from TweakScale, ensuring compatibility
+// Description: Prevents resizing of Real Fuels managed tanks and SRBs
+@PART[*]:HAS[@MODULE[ModuleFuelTanks],@MODULE[RFEngine],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Real Fuels Tanks
+    // Excludes: Non-procedural Real Fuels tanks
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@MODULE[ModuleCryoTank],@MODULE[RFEngine],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Real Fuels Cryogenic Tanks
+    // Excludes: Non-procedural Real Fuels cryogenic tanks
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@MODULE[ModuleTankManager],@MODULE[RFEngine],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Real Fuels Tank Managers
+    // Excludes: Non-procedural Real Fuels tanks managed by Real Fuels
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[LiquidFuel],@RESOURCE[Oxidizer],@MODULE[RFEngine],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Real Fuels Standard Tanks
+    // Excludes: Non-procedural Real Fuels tanks containing LiquidFuel and Oxidizer
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[MonoPropellant],@MODULE[RFEngine],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Real Fuels Monopropellant Tanks
+    // Excludes: Non-procedural Real Fuels tanks containing MonoPropellant
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[XenonGas],@MODULE[RFEngine],!MODULE[ProceduralPart],!MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Real Fuels Xenon Gas Tanks
+    // Excludes: Non-procedural Real Fuels tanks containing XenonGas
+    !MODULE[TweakScale] {}
+}
+
+@PART[*]:HAS[@RESOURCE[SolidFuel],@MODULE[RFEngine],!MODULE[ProceduralPart]]:FINAL
+{
+    // Category: Real Fuels Solid Rocket Boosters (SRBs)
+    // Excludes: Non-procedural Real Fuels SRBs
+    !MODULE[TweakScale] {}
+}
+
+// Exclude wings with fuel tanks from TweakScale, including Real Fuels compatibility
+// Description: Prevents resizing of wings with fuel tanks
+@PART[*]:HAS[@RESOURCE[*],@MODULE[ModuleLiftingSurface]]:FINAL
+{
+    // Category: Wings with Fuel Tanks
+    // Excludes: Wings containing fuel tanks
+    !MODULE[TweakScale] {}
+}

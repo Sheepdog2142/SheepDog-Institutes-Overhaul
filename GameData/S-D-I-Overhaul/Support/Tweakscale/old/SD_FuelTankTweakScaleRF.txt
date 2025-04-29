@@ -1,0 +1,9 @@
+// Apply US_TankScale to all fuel tanks, including those with Real Fuels modules and stock resources
+@PART[*]:HAS[@RESOURCE[LiquidFuel]|@RESOURCE[Oxidizer]|@RESOURCE[MonoPropellant]|@RESOURCE[XenonGas]|@MODULE[ModuleFuelTanks]|@MODULE[ModuleFuelTanksRF]]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = US_TankScale
+        defaultScale = 1.25
+    }
+}

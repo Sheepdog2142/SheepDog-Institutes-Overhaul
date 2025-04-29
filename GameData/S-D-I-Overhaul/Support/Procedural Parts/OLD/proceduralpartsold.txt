@@ -1,0 +1,855 @@
+//
+//ProceduralParts fixes
+//
+!PARTUPGRADE[ProceduralParts*] {}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd9375
+    partIcon = proceduralTankLiquid
+    techRequired = basicConstruction
+    title = Procedural Tank (0.9375)
+    description = Procedural Tank min diameter 0.9375
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd125
+    partIcon = proceduralTankLiquid
+    techRequired = generalConstruction
+    title = Procedural Tank (1.25)
+    description = Procedural Tank min diameter 1.25
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd1875
+    partIcon = proceduralTankLiquid
+    techRequired = fuelSystems
+    title = Procedural Tank (1.875)
+    description = Procedural Tank min diameter 1.875
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd25
+    partIcon = proceduralTankLiquid
+    techRequired = advFuelSystems
+    title = Procedural Tank (3.0)
+    description = Procedural Tank max diameter is 2.5
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd375
+    partIcon = proceduralTankLiquid
+    techRequired = largeVolumeContainment
+    title = Procedural Tank (3.75)
+    description = Procedural Tank max diameter is 3.75
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd5
+    partIcon = proceduralTankLiquid
+    techRequired = highPerformanceFuelSystems
+    title = Procedural Tank (5.0)
+    description = Procedural Tank max diameter is 5.0
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sd75
+    partIcon = proceduralTankLiquid
+    techRequired = specializedFuelStorage
+    title = Procedural Tank (7.5)
+    description = Procedural Tank max diameter is 7.5
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = sdu
+    partIcon = proceduralTankLiquid
+    techRequired = extremeFuelStorage
+    title = Procedural Tank (Unlimited)
+    description = Procedural Tank max diameter is unlimited
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrbasicLifeSupport
+    partIcon = proceduralTankOre
+    techRequired = basicLifeSupport
+    title = Procedural Ore Tank
+    description = Procedural Ore Tank
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrimprovedLifeSupport
+    partIcon = proceduralTankOre
+    techRequired = improvedLifeSupport
+    title = Procedural Ore Tank (Expanded)
+    description = Procedural Ore Tank dimensions are increased
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrlongTermLifeSupport
+    partIcon = proceduralTankOre
+    techRequired = longTermLifeSupport
+    title = Procedural Ore Tank (Unlimited)
+    description = Procedural Ore Tank dimensions are unlimited
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrelectronicsSatellite
+    partIcon = proceduralBattery
+    techRequired = electronicsSatellite
+    title = Procedural Battery (small)
+    description = Procedural Batteries small
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrelectronicsHuman
+    partIcon = proceduralBattery
+    techRequired = electronicsHuman
+    title = Procedural Battery (medium)
+    description = Procedural Batteries medium
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrminiaturization
+    partIcon = proceduralBattery
+    techRequired = miniaturization
+    title = Procedural Battery (large)
+    description = Procedural Batteries large
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrelectronicsSpaceStation
+    partIcon = proceduralBattery
+    techRequired = electronicsSpaceStation
+    title = Procedural Battery (huge)
+    description = Procedural Batteries huge
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrspaceStationSolarPanels
+    partIcon = proceduralBattery
+    techRequired = spaceStationSolarPanels
+    title = Procedural Battery (unlimited)
+    description = Procedural Batteries unlimited
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsupersonicFlightRP0
+    partIcon = proceduralNoseCone
+    techRequired = supersonicFlightRP0
+    title = Procedural NoseCone (small)
+    description = Procedural NoseCone small
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrhypersonicFlightRP0
+    partIcon = proceduralNoseCone
+    techRequired = hypersonicFlightRP0
+    title = Procedural NoseCone (medium)
+    description = Procedural NoseCone medium
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrprototypeSpaceplanes
+    partIcon = proceduralNoseCone
+    techRequired = prototypeSpaceplanes
+    title = Procedural NoseCone (large)
+    description = Procedural NoseCone large
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtraerodynamicSystems
+    partIcon = proceduralNoseCone
+    techRequired = aerodynamicSystems
+    title = Procedural NoseCone (unlimited)
+    description = Procedural NoseCone unlimited
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrflightControl
+    partIcon = proceduralHeatshield
+    techRequired = flightControl
+    title = Procedural Heatshield (medium)
+    description = Procedural Heatshield small
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrearlyLanding
+    partIcon = proceduralHeatshield
+    techRequired = landing
+    title = Procedural Heatshield (large)
+    description = Procedural Heatshield maximum diameter is 3m
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrlunarRatedHeatshields
+    partIcon = proceduralHeatshield
+    techRequired = lunarRatedHeatshields
+    title = Procedural Heatshield (huge)
+    description = Procedural Heatshield huge
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtradvUnmanned
+    partIcon = proceduralHeatshield
+    techRequired = advUnmanned
+    title = Procedural Heatshield (unlimited)
+    description = Procedural Heatshield unlimited
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrbasicSolids
+    partIcon = proceduralTankSRB
+    techRequired = basicSolids
+    title = Procedural SRB (early)
+    description = Procedural SRB early
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsolids1956
+    partIcon = proceduralTankSRB
+    techRequired = solids1956
+    title = Procedural SRB (1956)
+    description = Procedural SRB 1956
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsolids1958
+    partIcon = proceduralTankSRB
+    techRequired = solids1958
+    title = Procedural SRB (1958)
+    description = Procedural SRB 1958
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsolids1962
+    partIcon = proceduralTankSRB
+    techRequired = solids1962
+    title = Procedural SRB (1962)
+    description = Procedural SRB 1962
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsolids1964
+    partIcon = proceduralTankSRB
+    techRequired = solids1964
+    title = Procedural SRB (1964)
+    description = Procedural SRB 1964
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsolids1969
+    partIcon = proceduralTankSRB
+    techRequired = solids1969
+    title = Procedural SRB (1969)
+    description = Procedural SRB 1969
+}
+
+PARTUPGRADE:NEEDS[ProceduralParts]
+{
+    name = lrtrsolids1972
+    partIcon = proceduralTankSRB
+    techRequired = solids1972
+    title = Procedural SRB (unlimited)
+    description = Procedural SRB unlimited
+}
+
+
+@PART[*]:HAS[@MODULE[ProceduralPart]]
+{
+	MODULE
+	{
+		name = ModuleTagNotRescaled
+	}
+}
+
+@PART[*]:HAS[@MODULE[ProceduralShapeCone]]
+{
+    @MODULE[ProceduralShapeCone]
+    {
+        @techRequired = basicConstruction
+    }
+
+}
+@PART[*]:HAS[@MODULE[ProceduralShapePill]]
+{
+    @MODULE[ProceduralShapePill]
+    {
+        @techRequired = basicConstruction
+    }
+
+}
+@PART[*]:HAS[@MODULE[ProceduralShapeBezierCone]]
+{
+    @MODULE[ProceduralShapeBezierCone]
+    {
+        @techRequired = basicConstruction
+    }
+
+}
+  
+
+@PART[proceduralTankLiquid|proceduralTankRealFuels]
+{
+ 
+    @MODULE[ProceduralPart]
+    {
+        @diameterMin = 0.3125
+        @diameterMax = 0.625
+        @lengthMin = 0.625
+        @lengthMax = 2.5
+        @volumeMin = 0
+        @volumeMax = Infinity
+        
+        -UPGRADES,* {} 
+        
+        UPGRADES {
+            UPGRADE
+            {
+                name__ = sd9375
+                diameterMin = 0.3125
+                diameterMax = 0.9375
+                lengthMin = 0.625
+                lengthMax = Infinity
+            }
+          
+            UPGRADE
+            {
+                name__ = sd125
+                diameterMin = 0.1
+                lengthMin = 0.1
+				diameterMax = 1.25
+				lengthMax = Infinity
+
+            }
+            UPGRADE
+            {
+                name__ = sd1875
+                diameterMin = 0.1
+                lengthMin = 0.1
+				diameterMax = 1.875
+				lengthMax = Infinity
+
+            }            
+            UPGRADE
+            {
+                name__ = sd25
+                diameterMin = 0.1
+                lengthMin = 0.1
+				lengthMax = Infinity
+				diameterMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = sd375
+                diameterMin = 0.1
+                lengthMin = 0.1
+				lengthMax = Infinity
+				diameterMax = 3.75
+            }
+            UPGRADE
+            {
+                name__ = sd5
+                diameterMin = 0.1
+                lengthMin = 0.1
+				lengthMax = Infinity
+				diameterMax = 5
+            }
+            UPGRADE
+            {
+                name__ = sd75
+                diameterMin = 0.1
+                lengthMin = 0.1
+				lengthMax = Infinity
+				diameterMax = 7.5
+            }
+            UPGRADE
+            {
+                name__ = sdu
+                diameterMin = 0.1
+                lengthMin = 0.1
+				lengthMax = Infinity
+				diameterMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralStructural]
+{
+            
+    @MODULE[ProceduralPart]
+    {
+ 
+        @diameterMin = 1.0
+        @diameterMax = 1.25
+        @lengthMax = Infinity
+        @lengthMin = 0.625
+        @volumeMin = 0
+        @volumeMax = Infinity
+        
+         -UPGRADES,* {} 
+
+        UPGRADES {
+            UPGRADE
+            {
+                name__ = lrtrengineering101
+                diameterMin = 0.1	
+                lengthMin = 0.1
+            }
+            UPGRADE
+            {
+                name__ = lrtrgeneralConstruction
+                diameterMax = 1.875
+            }
+            UPGRADE
+            {
+                name__ = lrtrmaterialsScienceAdvCapsules
+                diameterMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrfuelSystems
+                diameterMax = 3.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrspecializedConstruction
+                diameterMax = 5
+            }
+            UPGRADE
+            {
+                name__ = lrtradvFuelSystems
+                diameterMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralTankOre]
+{
+             
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {} 
+        
+        @diameterMin = 0.1
+        @lengthMin = 0.1
+        @volumeMin = 1.0
+        
+        UPGRADES
+        {
+           UPGRADE
+            {
+                name__ = lrtrbasicLifeSupport
+                diameterMax = 1.5
+                lengthMax = 1.75
+                volumeMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrimprovedLifeSupport
+                diameterMax = 3.5
+                lengthMax = 5.0
+                volumeMax = 15.0
+            }
+            UPGRADE
+            {
+                name__ = lrtrlongTermLifeSupport
+			    diameterMin = 0.01
+    			diameterMax = Infinity
+	    		lengthMin = 0.01
+		    	lengthMax = Infinity
+			    volumeMin = 0.01
+    			volumeMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralTankRCS]
+{
+            
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {}
+        
+        @diameterMin = 0.5
+        @lengthMin = 0.3
+        @volumeMin = 0.11
+        
+        UPGRADES
+        {
+            UPGRADE
+            {
+                name__ = lrtrmaterialsScienceAdvCapsules
+                diameterMax = 2.5
+                lengthMax = 2.0
+                volumeMax = 5.0
+            }
+            UPGRADE
+            {
+                name__ = lrtrspecializedConstruction
+			    diameterMin = 0.01
+    			diameterMax = Infinity
+	    		lengthMin = 0.01
+		    	lengthMax = Infinity
+			    volumeMin = 0.01
+    			volumeMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralTankXenon]
+{
+          
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {}
+        
+        @diameterMin = 0.125
+        @diameterMax = 0.75
+        @lengthMin = 0.1
+        @lengthMax = 0.75
+        @volumeMin = 0.02
+        @volumeMax = 0.2
+        
+        UPGRADES
+        {
+            UPGRADE
+            {
+                name__ = lrtradvancedElecPropulsion
+                diameterMin = 0.01
+                diameterMax = Infinity
+                lengthMin = 0.01
+                lengthMax = Infinity
+                volumeMin = 0.01
+                volumeMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralBattery]
+{
+    MODULE
+    {
+        name = ModuleTagNotRescaled
+    }      
+    @MODULE[ProceduralShapeCone]
+    {
+        @techRequired = electronicsHuman
+    }
+    @MODULE[ProceduralShapePill]
+    {
+        @techRequired = electronicsAdvCapsules
+    }
+    @MODULE[ProceduralShapeBezierCone]
+    {
+        @techRequired = electronicsAdvCapsules
+    }
+        
+    @MODULE[ProceduralPart]
+    {
+        @diameterMin = 0.1
+        @diameterMax = 0.625
+        @lengthMax = 0.1
+        @lengthMin = 0.01
+        @volumeMin = 0
+        @volumeMax = Infinity
+        
+        -UPGRADES,* {}
+        
+        UPGRADES {
+           UPGRADE
+           {
+                name__ = lrtrelectronicsSatellite
+                lengthMax = 0.4
+            }
+            UPGRADE
+            {
+                name__ = lrtrelectronicsHuman
+                diameterMax = 1.25
+            }
+            UPGRADE
+            {
+                name__ = lrtrminiaturization
+                diameterMax = 1.875
+                lengthMax = 0.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrelectronicsSpaceStation
+                diameterMax = 2.5
+                maxLength = 1
+            }
+            UPGRADE
+            {
+                name__ = lrtrspaceStationSolarPanels
+                diameterMin = 0.01
+                diameterMax = Infinity
+                lengthMin = 0.01
+                lengthMax = Infinity
+                volumeMin = 0.001
+            }
+        }
+    }
+}
+
+@PART[proceduralNoseCone]
+{
+              
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {}
+        
+        UPGRADES
+        {
+            UPGRADE
+            {
+                name__ = lrtrsupersonicFlightRP0
+                diameterMin = 0.125
+                diameterMax = 1.25
+                lengthMin = 0.625
+                lengthMax = 0.625
+            }
+            UPGRADE
+            {
+                name__ = lrtrhypersonicFlightRP0
+                lengthMax = 1.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrprototypeSpaceplanes
+                diameterMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = lrtraerodynamicSystems
+                diameterMin = 0.01
+                diameterMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralHeatshield]
+{
+         
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {}
+        
+        UPGRADES
+        {
+            UPGRADE
+            {
+                name__ = lrtrflightControl
+                diameterMin = 0.5
+                diameterMax = 1.25
+            }
+            UPGRADE
+            {
+                name__ = lrtrearlyLanding
+                diameterMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrlunarRatedHeatshields
+                diameterMax = 3.5
+            }
+            UPGRADE 
+            {
+                name__ = lrtradvUnmanned
+                diameterMin = 0.01
+                diameterMax = Infinity
+                lengthMin = 0.1
+                lengthMax = Infinity
+                volumeMin = 0.01
+                volumeMax = Infinity
+            }
+		}
+    }
+}
+
+@PART[proceduralTankSRB|proceduralSRBRealFuels]
+{
+
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {}
+ 		
+        @diameterMin = 0.5
+        @diameterMax = 0.625
+        @lengthMin = 1.0
+        @lengthMax = 1.5
+        @volumeMin = 0
+ 		@volumeMax = Infinity
+		
+ 		UPGRADES
+ 		{
+            UPGRADE
+            {
+                name__ = lrtrbasicSolids
+                diameterMax = 1.25
+            }
+            UPGRADE
+            {
+                name__ = lrtrsolids1956
+                diameterMin = 0.02
+                lengthMin = 0.1
+            }
+            UPGRADE
+            {
+                name__ = lrtrsolids1958
+                lengthMax = 6.0
+            }
+            UPGRADE
+            {
+                name__ = lrtrsolids1962
+                lengthMax = 14.0
+            }
+            UPGRADE
+            {
+                name__ = lrtrsolids1964
+                diameterMax = 1.875
+            }
+            UPGRADE
+            {
+                name__ = lrtrsolids1969
+                diameterMax = 2.5
+            }
+            UPGRADE 
+            {
+                name__ = lrtrsolids1972
+                diameterMin = 0.01
+                diameterMax = Infinity
+                lengthMin = 0.1
+                lengthMax = Infinity
+            }
+        }
+    }
+}
+
+@PART[proceduralStackDecoupler]
+{
+    @MODULE[ProceduralPart]
+    {
+        -UPGRADES,* {}
+        
+        UPGRADES
+        {
+            UPGRADE
+            {
+                name__ = lrtrengineering101
+                diameterMin = 0.5
+                diameterMax = 1.25
+            }
+            UPGRADE
+            {
+                name__ = lrtrgeneralConstruction
+                diameterMax = 1.875
+            }
+            UPGRADE
+            {
+                name__ = lrtrmaterialsScienceAdvCapsules
+                diameterMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrmaterialsScienceAdvCapsules
+                diameterMax = 2.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrfuelSystems
+                diameterMax = 3.5
+            }
+            UPGRADE
+            {
+                name__ = lrtrspecializedConstruction
+                diameterMax = 5.0
+            }
+            UPGRADE
+            {
+                name__ = lrtradvFuelSystems
+                diameterMax = Infinity
+            }
+        }
+    }
+    MODULE[DecouplerTweaker]
+    {
+        @separatorTechRequired = generalConstruction
+    }
+}
+
+@PART[*]:HAS[@MODULE[ProceduralPart]]:NEEDS[LRTRRescale]
+{
+    @MODULE[TankContentSwitcher]
+    {
+        @TANK_TYPE_OPTION,*
+        {
+            @dryDensity *= 0.8
+            //@RESOURCE[SolidFuel]
+            //{
+            //    @unitsPerT *= 1.6
+            //}
+            @RESOURCE[MonoPropellant]
+            {
+                @unitsPerT *= 0.45
+            }
+        }
+    }
+    @MODULE[ProceduralPart]
+    {
+        @volumeMin *= 3.6
+        @volumeMax *= 3.6
+
+        @UPGRADES
+        {
+            @UPGRADE,*
+            {
+                @volumeMin *= 3.6
+                @volumeMax *= 3.6
+            }
+        }
+        @TECHLIMIT,*
+        {
+            @volumeMin *= 3.6
+            @volumeMax *= 3.6
+        }        
+    }
+    @MODULE[ProceduralSRB]
+    {
+        @thrust1m *= 2.56
+    }
+}

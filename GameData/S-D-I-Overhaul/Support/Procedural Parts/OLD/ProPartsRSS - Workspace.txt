@@ -1,0 +1,220 @@
+//Add tweakscale to parts that should have it where it is missing
+//possibly the part was never configured| or we accidentally removed it with zForbid.cfg
+
+/////////////////////////////////////////////////////////////
+//  SIMPLE MECHANICAL PARTS
+/////////////////////////////////////////////////////////////
+
+//Solid Rockets
+
+//landing gear
+
+//wheels
+
+//landing legs
+
+//radiators
+@PART[M2X_PoddedRadiator]:NEEDS[Mk2Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+
+//air intakes
+
+//decouplers
+@PART[AES_Decoupler]:NEEDS[UmbraSpaceIndustries]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+
+//RCS blisters
+@PART[M2X_RCSBlister]:NEEDS[Mk2Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+@PART[M2X_OMSBlister]:NEEDS[Mk2Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+@PART[M2X_FF5WayRCS]:NEEDS[Mk2Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+@PART[M3X_HeavyRCS]:NEEDS[Mk3Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+
+/////////////////////////////////////////////////////////////
+//  SIMPLE ELECTRICAL PARTS
+/////////////////////////////////////////////////////////////
+
+//batteries
+@PART[batteryBankLarge]:FINAL // Z-4K Rechargeable Battery Bank
+{
+    %MODULE[TweakScale]
+    {
+        type = stack_25
+        defaultScale = 2.5
+    }
+}
+
+/////////////////////////////////////////////////////////////
+//  STATIC STRUCTURAL PARTS
+/////////////////////////////////////////////////////////////
+
+//wings
+@PART[M3X_Wing*]:NEEDS[Mk3Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+
+//control surfaces
+@PART[M3X_Elevon*]:NEEDS[Mk3Expansion]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+        defaultScale = 100
+    }
+}
+
+//structural parts
+@PART[Mk1FuselageStructural]:FINAL // Structural Fuselage
+{
+    %MODULE[TweakScale]
+    {
+        type = stack_square_125
+        defaultScale = 1.25
+    }
+}
+@PART[munox-adapter*]:NEEDS[TokamakIndustries]:FINAL
+{
+    %MODULE[TweakScale]
+    {
+        type = stack_125
+        defaultScale = 1.25
+    }
+}
+@PART[adapterSmallMiniShort]:FINAL // FL-A5 Adapter
+{
+    %MODULE[TweakScale]
+    {
+        type = stack_125
+        defaultScale = 1.25
+    }
+}
+@PART[largeAdapter2]:FINAL // Rockomax Brand Adapter 2
+{
+    %MODULE[TweakScale]
+    {
+        type = stack_25
+        defaultScale = 2.5
+    }
+}
+@PART[largeAdapter]:FINAL // Rockomax Brand Adapter
+{
+    %MODULE[TweakScale]
+    {
+        type = stack_25
+        defaultScale = 2.5
+    }
+}
+// Whitelist all decouplers| stack separators| RCS parts| and fairings for TweakScale
+
+// Remove any existing TweakScale configurations and apply US_Con to all decouplers and stack separators
+@PART[*]:HAS[@MODULE[ModuleDecouple]]:FINAL // All decouplers and stack separators
+{
+    
+    %MODULE[TweakScale]
+    {
+        type = free_square_limited
+    }
+}
+
+// Remove any existing TweakScale configurations and apply US_RCS to all RCS parts
+@PART[*]:HAS[@MODULE[ModuleRCS]]:FINAL // All RCS parts
+{ 
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+    }
+}
+
+// Remove any existing TweakScale configurations and apply US_Con to all fairings
+@PART[*]:HAS[@MODULE[ModuleProceduralFairing]]:FINAL // All fairings
+{
+    -MODULE[TweakScale]  // Remove any existing TweakScale module     
+    %MODULE[TweakScale]
+    {
+        type = free_square_USII
+    }
+}
+
+// Apply appropriate SCALETYPE to Cylindrical Shrouds
+@PART[USQuadcore|USCylindricalShroud0625|USCylindricalShroud1500|USCylindricalShroud125|USPenticore|USAdaptorShroud1250|USAdaptorShroud1250Vostok|USAdaptorShroud1500|USOctocore|USCylindricalShroud250|USCylindricalShroud125ResizedTo1875-1|USAdaptorShroud1250Soyuz|USCylindricalShroud1500ResizedTo1875-2|USAdaptorShroud1875]:FINAL
+{ 
+    -MODULE[TweakScale]  // Remove any existing TweakScale module
+    %MODULE[TweakScale]
+    {
+        type = free_square_USII
+    }
+}
+
+// Apply appropriate SCALETYPE to Power Sources (Batteries| Fuel Cells| RTG)
+@PART[USACDTiny|USACDSmall|USACD1500|USACDMedium|USACDLarge]:FINAL
+{ 
+    -MODULE[TweakScale]  // Remove any existing TweakScale module    
+    %MODULE[TweakScale]
+    {
+        type = free_square_USII
+    }
+}
+
+
+// Apply appropriate SCALETYPE to Power Sources (Batteries| Fuel Cells| RTG)
+@PART[USBatteryWedge|USFuelCellMedium|USFuelCellSmal|USRTGWedge]:FINAL
+{
+    -MODULE[TweakScale]  // Remove any existing TweakScale module    
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+    }
+}
+
+@PART[USCargoStorageWedge|USHydrazineWedge|USAerozineWedge|USCarbonDioxideWedge|USFoodWedge|USWaterWedge|USOxygenWedge|USSolidWasteWedge|USHydrogenWedge|USElektron|USComboLifesupportWedge|USGreyWaterWedge|USWaterPurifier|USRadialTanks|USSabatier]:FINAL
+{
+    -MODULE[TweakScale]  // Remove any existing TweakScale module    
+    %MODULE[TweakScale]
+    {
+        type = free_limited
+    }
+}
