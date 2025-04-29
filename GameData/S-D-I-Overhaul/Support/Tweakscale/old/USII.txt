@@ -1,9 +1,0 @@
-// Universal Storage with custom scaling steps up to 10m and adjusted tech requirements
-@PART[US_*]:FINAL
-{
-    %MODULE[TweakScale]
-    {
-        type = US_TankScale
-        defaultScale = 1.25
-    }
-}
