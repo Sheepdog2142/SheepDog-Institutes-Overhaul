@@ -1,0 +1,148 @@
+@PART[wbiGuppyCommandPod]:FINAL
+{
+    %TechRequired = specializedLanders
+}
+@PART[wbiBuffaloCommandPod]:FINAL
+{
+    %TechRequired = specializedLanders
+}
+
+@PART[b2AuXEN]:FINAL
+{
+    %TechRequired = largeUnmanned
+}
+
+@PART[b2FuelTankModuleShort|b2ChassisTank]:FINAL
+{
+    %TechRequired = shortTermHabitation
+}
+
+@PART[b2WorkshopShort]:FINAL
+{
+    %TechRequired = shortTermHabitation
+}
+
+@PART[wbiObservationModule]:FINAL
+{
+    %TechRequired = shortTermHabitation
+}
+
+@PART[b2Mineshaft|wbiShortDockingModule|wbiExplorationModule|b2LockoutChamber|wbiB2ShortSideHatch|wbiAirlockModule|wbiBackPorch]:FINAL
+{
+    %TechRequired = shortTermHabitation
+}
+
+@PART[wbiTailgate|b2ChassisSloped|b2TrailerFrame|b2ChassisMini|b2ChassisFifthWheel|wbiB2ChassisDecoupler|wbiAdapterSBS1|wbiAdapterRBS1|wbiB2SlopedEndcapV2|wbiB2Endcap|wbiAdapterSTS1]:FINAL
+{
+    %TechRequired = nanolathing
+}
+
+@PART[wbiAdapterSTS1|wbiAdapterRBS1|wbiAdapterSBS1|wbiChassisS1Adapter]:FINAL
+{
+    %TechRequired = nanolathing
+}
+
+@PART[wbiPowerSupportUnit|wbiSolarPanel|wbiSolarPanelShort]:FINAL
+{
+    %TechRequired = specializedElectrics
+}
+
+@PART[b2FuelCellModule|b2PowerChassis]:FINAL
+{
+    %TechRequired = experimentalElectrics
+}
+
+@PART[b2BioreactorModule]:FINAL
+{
+    %TechRequired = highTechElectricalSystems
+}
+
+@PART[wbiSize1TiltRotor|wbiSize2TiltRotor]:FINAL
+{
+    %TechRequired = efficientFlightSystems
+}
+
+@PART[wbiAirBlastRCS]:FINAL
+{
+    %TechRequired = specializedControl
+}
+
+@PART[wbiConverterSupportUnit]:FINAL
+{
+    %TechRequired = offworldManufacturing
+}
+
+@PART[b2FuelTankModule]:FINAL
+{
+    %TechRequired = shortTermHabitation
+}
+
+@PART[wbiWorkshopModule]:FINAL
+{
+    %TechRequired = longTermHabitation
+}
+
+@PART[wbiGreenhouseModule|wbiHabitatModule|wbiShortGymModule|wbiSickbayModule|wbiStateroomModule]:FINAL
+{
+    %TechRequired = longTermHabitation
+}
+
+@PART[wbiGeologyModule]:FINAL
+{
+    %TechRequired = advScienceTech
+}
+
+@PART[wbiLabModule]:FINAL
+{
+    %TechRequired = scientificOutposts
+}
+
+@PART[wbiShortLogisticsModule|wbiStorageWedge|wbiRSU*]:FINAL
+{
+    %TechRequired = logistics
+}
+
+@PART[wbiLogisticsModule]:FINAL
+{
+    %TechRequired = advLogistics
+}
+
+@PART[wbiB2ShortCargoBay|wbiTailgate]:FINAL
+{
+    %TechRequired = nanolathing
+}
+
+@PART[wb2GrapplerArm]:FINAL
+{
+    %TechRequired = experimentalActuators
+}
+
+@PART[wbiB2CargoBay]:FINAL
+{
+    %TechRequired = cuttingEdgeConstruction
+}
+
+@PART[wbiB2Hub]:FINAL
+{
+    %TechRequired = cuttingEdgeConstruction
+}
+
+@PART[wbiRoverDockingPort|b2ChassisCoupler|wbiB2ChassisDecoupler|wbiBodyDockingPort]:FINAL
+{
+    %TechRequired = nanolathing
+}
+
+@PART[wbiB2SaddleTank|wbiB2SaddleTankDW]:FINAL
+{
+    %TechRequired = efficientFlightSystems
+}
+
+@PART[BuffaloDrill]:FINAL
+{
+    %TechRequired = advOffworldMining
+}
+
+@PART[wbiB2Wing*|wbiB2Canard*|b2Elevon]:NEEDS[ProceduralParts]:FINAL
+{
+    %TechRequired = orphanedParts
+}
