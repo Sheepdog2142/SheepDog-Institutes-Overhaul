@@ -1,0 +1,142 @@
+//////////// Experiment Configuration ///////////////////////
+
+
+@PART[US*]:HAS[@MODULE[Configure]:HAS[#title[Camera?Lense?Setup]],!MODULE[Experiment]:HAS[#experiment_id[dmReconScan]]]:NEEDS[FeatureScience]
+{
+	MODULE
+	{
+		name = Experiment
+		experiment_id = dmReconScan
+	}
+}
+
+@PART[US*]:HAS[@MODULE[Configure]:HAS[#title[Camera?Lense?Setup]],!MODULE[Experiment]:HAS[#experiment_id[KerbalismResourceScanner]]]:NEEDS[FeatureScience]
+{
+	MODULE
+	{
+		name = Experiment
+		experiment_id = KerbalismResourceScanner
+	}
+}
+
+@PART[US*]:HAS[@MODULE[Configure]:HAS[#title[Camera?Lense?Setup]],!MODULE[Experiment]:HAS[#experiment_id[infraredTelescope]]]:NEEDS[FeatureScience]
+{
+	MODULE
+	{
+		name = Experiment
+		experiment_id = infraredTelescope
+	}
+}
+
+@PART[US*]:HAS[@MODULE[Configure]:HAS[#title[Camera?Lense?Setup]]]:NEEDS[FeatureScience]
+{
+	MODULE
+	{
+		name = Experiment
+		experiment_id = dmReconScan
+	}
+	MODULE
+	{
+		name = Experiment
+		experiment_id = KerbalismResourceScanner
+	}
+	MODULE
+	{
+		name = Experiment
+		experiment_id = infraredTelescope
+	}
+	
+    @MODULE[Configure]:HAS[#title[Camera?Lense?Setup]]
+	{
+		SETUP
+			{
+				name = None
+				desc = Empty slot for mass and cost savings, should you not require any instruments installed.
+			}
+		SETUP
+			{
+				name = Recon Camera
+				desc =  Configures the part as a surveillance telescope.
+				MODULE
+				{
+					type = Configure
+					id_field = title
+					id_value = dmReconScan
+				}
+			}			
+		SETUP
+			{
+				name = Resource Scanning
+				desc =  Configures the part as a Resource Scanner.
+				MODULE
+				{
+					type = Configure
+					id_field = title
+					id_value = KerbalismResourceScanner
+				}
+			}
+		SETUP
+			{
+				name = Infrared Telescope
+				desc =  Configures the part as a Infrared Telescope.
+				MODULE
+				{
+					type = Configure
+					id_field = title
+					id_value = infraredTelescope
+				}
+			}
+
+	}
+}
+
+
+@PART[US*]:HAS[@MODULE[Configure]:HAS[#title[Camera?Lense?Setup]]]:NEEDS[FeatureScience]:FOR[KerbalismDefault]
+{
+	@MODULE[Configure]:HAS[#title[Unmanned?Experiments]]
+	{
+		@slots = #$@KERBALISM_GROUP_SETTINGS/UNMANNED_EXPERIMENTS/BaseSlots$
+		UPGRADES
+		{
+			UPGRADE
+			{
+				name__ = Unmanned-Upgrade1
+				techRequired__ = #$../../../@KERBALISM_GROUP_SETTINGS/UNMANNED_EXPERIMENTS/UpgradeTech$
+				slots = #$../../../@KERBALISM_GROUP_SETTINGS/UNMANNED_EXPERIMENTS/UpgradedSlots$
+			}
+		}
+
+@PART[US*]:HAS[@MODULE[Experiment]]:NEEDS[FeatureScience]:FOR[KerbalismDefault]
+{
+	@MODULE[Experiment]:HAS[#experiment_id[dmReconScan]]
+	{
+    anim_deploy = #$../MODULE:HAS[#experimentID,~name[Experiment]]/animationName$
+    anim_loop = #$../MODULE:HAS[#experimentID,~name[Experiment]]/loopingAnimName$
+    data_rate = #$@KERBALISM_EXPERIMENT_VALUES/DMagicOrbitalScience/dmReconScan/size$
+    @data_rate /= #$@KERBALISM_EXPERIMENT_VALUES/DMagicOrbitalScience/dmReconScan/duration$
+        @data_rate *= #$../mass$
+    ec_rate = 2.5
+    @ec_rate *= #$../mass$
+    allow_shrouded = False
+	}
+
+	@MODULE[Experiment]:HAS[#experiment_id[KerbalismResourceScanner]]
+	{
+    data_rate = #$@KERBALISM_GROUP_SETTINGS/ORBITAL_EXPERIMENTS/ResourceScanner/size$
+    @data_rate /= #$@KERBALISM_GROUP_SETTINGS/ORBITAL_EXPERIMENTS/ResourceScanner/duration$
+    ec_rate = #$@KERBALISM_GROUP_SETTINGS/ORBITAL_EXPERIMENTS/ResourceScanner/ECCost$
+    requires = #$@KERBALISM_GROUP_SETTINGS/ORBITAL_EXPERIMENTS/ResourceScanner/requirements$
+    allow_shrouded = false
+	}
+
+	@MODULE[Experiment]:HAS[#experiment_id[infraredTelescope]]
+	{
+		%ec_rate = #$@KERBALISM_EXPERIMENT_VALUES/STOCK/infraredTelescope/ECCost$
+		%data_rate = #$@KERBALISM_EXPERIMENT_VALUES/STOCK/infraredTelescope/size$
+		@data_rate /= #$@KERBALISM_EXPERIMENT_VALUES/STOCK/infraredTelescope/duration$
+		%requires = #$@KERBALISM_EXPERIMENT_VALUES/STOCK/infraredTelescope/requirements$
+		%resources = #$@KERBALISM_EXPERIMENT_VALUES/STOCK/infraredTelescope/ResourceRates$
+	}
+
+}
+
