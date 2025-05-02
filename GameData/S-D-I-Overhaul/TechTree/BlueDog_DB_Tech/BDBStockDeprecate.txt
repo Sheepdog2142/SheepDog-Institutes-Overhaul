@@ -8,17 +8,7 @@
     @TechRequired = orphanedParts
 }
 
-@PART[]:NEEDS[Bluedog_DB]:FINAL
-{
-    @TechRequired = orphanedParts
-}
-
 @PART[Size1p5_Size2_Adapter_01|adapterSize2-Size1Slant|Rockomax16_BW]:NEEDS[Bluedog_DB|Rockomax32_BW|adapterSize2-Size1|Rockomax8BW|Rockomax64_BW]:FINAL
-{
-    @TechRequired = orphanedParts
-}
-
-@PART[]:NEEDS[Bluedog_DB]:FINAL
 {
     @TechRequired = orphanedParts
 }
