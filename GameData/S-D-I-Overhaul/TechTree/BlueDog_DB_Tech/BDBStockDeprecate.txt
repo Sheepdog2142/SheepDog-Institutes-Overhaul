@@ -47,3 +47,8 @@
 {
     @TechRequired = orphanedParts
 }
+
+@PART[mk1pod|mk1pod_v2|Mk2Pod|MEMLander]:NEEDS[Bluedog_DB]:FINAL
+{
+    @TechRequired = orphanedParts
+}
