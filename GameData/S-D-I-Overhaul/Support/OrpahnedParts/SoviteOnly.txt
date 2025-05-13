@@ -1,0 +1,121 @@
+@PART[fuelTankSmallFlat|fuelTankSmall|fuelTank|fuelTank_long]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size1p5_Size0_Adapter_01|Size1p5_Size1_Adapter_01|Size1p5_Tank_05|Size1p5_Size1_Adapter_02|Size1p5_Tank_04|Size1p5_Tank_01|Size1p5_Tank_02|Size1p5_Tank_03]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size1p5_Size2_Adapter_01|adapterSize2-Size1Slant|Rockomax16_BW]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Rockomax32_BW|adapterSize2-Size1|Rockomax8BW|Rockomax64_BW]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size3MediumTank|Size3SmallTank|Size3LargeTank|Size3To2Adapter_v2]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size4_EngineAdapter_01|Size4_Tank_04|Size4_Tank_03|Size4_Tank_01|Size4_Tank_02|Size3_Size4_Adapter_01]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[largeAdapter|adapterSmallMiniShort|adapterSmallMiniTall|largeAdapter2]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[liquidEngine2_v2|liquidEngine_v2|liquidEngineMini_v2|liquidEngine3_v2|LiquidEngineLV-T91|SSME|LiquidEngineLV-TX87]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size2LFB_v2|LiquidEngineLV-T91|LiquidEngineRE-J10|LiquidEngineKE-1|LiquidEngineRK-7|Size3EngineCluster|Size3AdvancedEngine|liquidEngineMainsail_v2|engineLargeSkipper_v2|liquidEngine2-2_v2]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[solidBooster_sm_v2|solidBooster_v2|solidBooster1-1|Mite|Shrimp|Thoroughbred|Clydesdale|MassiveBooster|Pollux]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[mk1pod|mk1pod_v2|Mk2Pod|MEMLander]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size3_Size4_Adapter_01]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Size1p5_*|Rockomax32_*|Size3_*|Size4_*]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[radialEngineMini_v2|microEngine_v2]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[Decoupler_0|Decoupler_1|Decoupler_1p5|Decoupler_2]:NEEDS[Tantares|TantaresLV]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[chara_lv_engine_s0p5_1]:NEEDS[Tantares|TantaresLV|]:FINAL
+{
+    @TechRequired = basicRocketry
+}
+
+@PART[yakprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = start
+}
+
+@PART[chaikaprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = stability
+}
+
+@PART[spitfiremerlin|herculesprop|KP12|predatorprop|tbmProp]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = orphanedParts
+}
+
+@PART[oldfightercockpit|zerocockpit|herculescockpit|mk3galaxy|concordecockpit|oh6cockpit|hueycockpit|bellcockpit]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[152Prop|corsairprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = orphanedParts
+}
+
+@PART[hueytail|hueyprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = orphanedParts
+}
+
+@PART[bellprop|belltail]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = orphanedParts
+}
+
+@PART[blackhawkprop|chinookprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+{
+    %TechRequired = orphanedParts
+}
+
+
