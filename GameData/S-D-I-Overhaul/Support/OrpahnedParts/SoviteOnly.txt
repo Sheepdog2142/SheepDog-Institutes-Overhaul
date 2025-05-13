@@ -78,42 +78,42 @@
     @TechRequired = basicRocketry
 }
 
-@PART[yakprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[yakprop]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = start
 }
 
-@PART[chaikaprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[chaikaprop]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = stability
 }
 
-@PART[spitfiremerlin|herculesprop|KP12|predatorprop|tbmProp]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[spitfiremerlin|herculesprop|KP12|predatorprop|tbmProp]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = orphanedParts
 }
 
-@PART[oldfightercockpit|zerocockpit|herculescockpit|mk3galaxy|concordecockpit|oh6cockpit|hueycockpit|bellcockpit]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[oldfightercockpit|zerocockpit|herculescockpit|mk3galaxy|concordecockpit|oh6cockpit|hueycockpit|bellcockpit]:NEEDS[AirplanePlus]:FINAL
 {
     @TechRequired = orphanedParts
 }
 
-@PART[152Prop|corsairprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[152Prop|corsairprop]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = orphanedParts
 }
 
-@PART[hueytail|hueyprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[hueytail|hueyprop]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = orphanedParts
 }
 
-@PART[bellprop|belltail]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[bellprop|belltail]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = orphanedParts
 }
 
-@PART[blackhawkprop|chinookprop]:NEEDS[Tantares|TantaresLV|AirplanePlus]:FINAL
+@PART[blackhawkprop|chinookprop]:NEEDS[AirplanePlus]:FINAL
 {
     %TechRequired = orphanedParts
 }
