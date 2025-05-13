@@ -1,0 +1,13 @@
+//===============================================
+//             BLACKLIST                  //
+=================================================
+
+@PART[restock-fairing*]:NEEDS[ProceduralFairings]:FINAL
+{
+    @TechRequired = orphanedParts
+}
+
+@PART[restock-oretank*]:NEEDS[ProceduralParts]:FINAL
+{
+    @TechRequired = orphanedParts
+}
